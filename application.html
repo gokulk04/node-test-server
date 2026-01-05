@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uphar Gaur - SDE 1 Application | Asha Health</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background: #f7f7ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box h3 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .experience-item h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .experience-item .company {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .experience-item li {
+            margin-bottom: 8px;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            color: white;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .links {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hey Gokul! <span class="emoji">👋</span></h1>
+            <p>I'm Uphar Gaur - Applying for SDE 1 at Asha Health</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Why I'm Reaching Out</h2>
+                <p>
+                    I came across the SDE 1 position at Asha Health (YC F24) and was immediately excited. Healthcare + AI is a space I'm deeply passionate about, and your work resonating with YC's backing shows you're building something truly impactful.
+                </p>
+                <p>
+                    Instead of a traditional application, I thought I'd create this as a Pull Request - because why not show rather than tell? <span class="emoji">🚀</span>
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>What I've Been Building</h2>
+
+                <div class="highlight-box">
+                    <h3><span class="emoji">🤖</span> Agentic Flow & Context Engineering</h3>
+                    <p>
+                        I've been diving deep into <strong>agentic AI systems</strong> and <strong>context engineering</strong> - specifically focusing on how to optimize token usage for LLM-powered applications. My work involves:
+                    </p>
+                    <ul>
+                        <li>Building intelligent context windows that maximize information density while minimizing token waste</li>
+                        <li>Experimenting with multi-agent architectures for complex task decomposition</li>
+                        <li>Optimizing prompt engineering patterns for production systems</li>
+                        <li>Exploring RAG (Retrieval Augmented Generation) systems with smart context pruning</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <h3><span class="emoji">⚡</span> Real-World Impact</h3>
+                    <p><strong>At SYFE (Current - Backend Intern):</strong></p>
+                    <ul>
+                        <li>Built Redis-based distributed locking for Quartz jobs across K8s pods - preventing race conditions in production</li>
+                        <li>Reduced latency by 50% with automated Cloudflare cache invalidation system</li>
+                    </ul>
+
+                    <p><strong>Smart Baroda (Bank of Baroda Hackathon):</strong></p>
+                    <ul>
+                        <li>Engineered Android app with Generative AI for personalized banking content</li>
+                        <li>Built AI-driven financial advisors with context-aware content generation</li>
+                        <li>Used Azure AI services with optimized prompt engineering</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Technical Foundation</h2>
+
+                <div class="skills">
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Golang</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Generative AI</span>
+                    <span class="skill-tag">LLM Optimization</span>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Recent Experience Highlights</h3>
+                    <ul>
+                        <li><strong>Distributed Systems:</strong> Built Redis locking mechanisms, optimized WebRTC signaling servers (50% drop rate reduction)</li>
+                        <li><strong>Performance Optimization:</strong> Reduced latency by 30-50% across multiple projects through caching, architecture improvements</li>
+                        <li><strong>Full-Stack Development:</strong> Angular, Node.js, Kotlin, with strong backend focus</li>
+                        <li><strong>AI/ML Integration:</strong> Generative AI for banking apps, context-aware content generation</li>
+                        <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3), Docker, GitHub Actions, CI/CD pipelines</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Why Asha Health?</h2>
+                <p>
+                    Healthcare is one of the few industries where technology can create life-changing impact at scale. The intersection of AI and healthcare automation is particularly exciting - there's so much potential to reduce operational overhead while improving patient care.
+                </p>
+                <p>
+                    I'm excited about the opportunity to contribute to a YC-backed startup in its early stages, where I can wear multiple hats, ship fast, and directly impact product direction.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Quick Facts</h2>
+                <ul style="margin-left: 20px;">
+                    <li><span class="emoji">🎓</span> B.Tech CSE from IIIT Una (8.05 CGPA)</li>
+                    <li><span class="emoji">💼</span> 3 internships with measurable impact (50% latency reduction, 50% drop rate reduction)</li>
+                    <li><span class="emoji">🏆</span> Flipkart GRiD 5.0 Semifinalist, Bank of Baroda Hackathon Qualifier</li>
+                    <li><span class="emoji">💻</span> 700+ DSA problems solved (Codeforces Pupil)</li>
+                    <li><span class="emoji">⚽</span> Captain of IIIT Una Football Team (because teamwork matters!)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Let's Connect!</h2>
+            <p>I'd love to discuss how I can contribute to Asha Health's mission. Feel free to review my work and reach out!</p>
+
+            <div class="links">
+                <a href="https://uphargaur.github.io/" class="btn" target="_blank">Portfolio</a>
+                <a href="https://github.com/uphargaur" class="btn" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/uphar-gaur/" class="btn" target="_blank">LinkedIn</a>
+                <a href="mailto:uphargaur@gmail.com" class="btn">Email Me</a>
+            </div>
+
+            <p style="margin-top: 30px; opacity: 0.9;">
+                <span class="emoji">📱</span> +91-9368896091 | <span class="emoji">📧</span> uphargaur@gmail.com
+            </p>
+        </div>
+    </div>
+</body>
+</html>
